@@ -19,9 +19,9 @@ int main()
     string gameChoice;
     
     cout<<"Outbreak: A game for those interested in public health that gives background and lets the player make decisions.\nUser can play game 1 or 2 and replay at the end.\n\n"; 
-    cout<<"Choose virus 1 or 2\n";
-    cout<<"(Enter 1 or 2 or q to quit)\n";
-    cin>>gameChoice;
+    cout<<"Choose virus 1 or 2\n"; // user chooses which game they want to play
+    cout<<"(Enter 1 or 2 or q to quit)\n"; // uses enters their choice
+    cin>>gameChoice; // user enters game choice
     
     if (gameChoice == "1")
     {
@@ -46,7 +46,7 @@ int virusOne()
 {
     string anyKey, answerOne, answerTwo, answerThree;
     printf("\E[2J\E[2H");
-    cout<<"Game 1  Windy City: Question 1\n"; 
+    cout<<"Game 1  Windy City: Question 1\n"; // displays name of challenge 1
     cout<<"Throughout the Chicagoland area 50 people have gone into the hospital with these symptoms:\n";
     cout<<"fatigue, shortness of breath, coughing, chest pain, and fever. 27 of those admitted to the\n";
     cout<<"hospital have attended a music class with musician Sara Lee\n\n";
@@ -62,7 +62,7 @@ int virusOne()
     cout<<"B. Take a closer look at the drums from Africa\n";
     cout<<"C. Stop all flights from Africa to the U.S\n\n";
     cout<<"Answer: ";
-    cin>>answerOne;
+    cin>>answerOne; // user enters answer choice 
 
     if ((answerOne == "B")||(answerOne == "b"))
     {
@@ -95,7 +95,7 @@ int virusOne()
     cout<<"B. The drums made of sheep skin were infected\n";
     cout<<"C. Sara got anthrax from someone that came to her music class\n\n";
     cout<<"Answer: ";    
-    cin>>answerTwo;
+    cin>>answerTwo; // user enters answer to second question
     
     if ((answerTwo == "B")||(answerTwo == "b"))
     {
