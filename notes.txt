@@ -1,0 +1,4 @@
+Fri Dec 13 20:07:13 CST 2019
+compiles and works fine but has some clumsy exits
+except that 'q' doesn't alway quit
+game choices are not really clear - and not sure why "don't want to cause panic" occurs so often
